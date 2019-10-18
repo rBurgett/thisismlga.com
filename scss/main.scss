@@ -53,12 +53,45 @@ div.btn {
 .svg-icon {
   height: 1rem;
   width: auto;
-  fill: #343a40;
+  fill: #d9b01c;
   vertical-align: middle;
 }
 a.btn-outline-dark:hover .svg-icon {
-  fill: #fff;
+  fill: #000;
 }
 a.btn-outline-dark:focus .svg-icon {
-  fill: #fff;
+  fill: #000;
+}
+a.btn-outline-dark {
+  background-color: #0d0d0d;
+
+  &:hover {
+    background-color: #d9b01c;
+  }
+
+  &:focus {
+    background-color: #0d0d0d;
+  }
+}
+
+$episodeTextColor: #d9b01c;
+
+div.card {
+  background-color: #0d0d0d;
+  color: $episodeTextColor;
+}
+a.episode-title-link {
+  color: $episodeTextColor;
+  opacity: 1;
+  &:hover {
+    background-color: #d9b01c;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  &:focus {
+    background-color: #d9b01c;
+    color: #000000;
+    text-decoration: none;
+  }
 }
