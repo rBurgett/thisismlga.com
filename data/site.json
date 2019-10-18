@@ -1,0 +1,30 @@
+{
+  "BACKGROUND_COLOR": "#fff",
+  "SITE_NAME": "Make Liberty Great Again",
+  "SITE_URL": "https://thisismlga.com",
+  "ITUNES_LINK": "",
+  "PATREON_LINK": "https://patreon.com/ThisIsMLGA",
+  "FACEBOOK_LINK": "https://facebook.com/ThisIsMLGA",
+  "TWITTER_LINK": "https://twitter.com/ThisIsMLGA",
+  "META_DESCRIPTION": "Cam and Phil are doing their damnedest to fight for liberty, logic, reason, and truth with a sarcastic edge and lighthearted banter.",
+  "META_IMAGE": "mlga.jpg",
+  "META_IMAGE_WIDTH": "2000",
+  "META_IMAGE_HEIGHT": "2000",
+  "FB_APP_ID": "",
+  "MANAGING_EDITOR": "ryan@mlganetwork.com (Ryan Burgett)",
+  "WEBMASTER": "ryan@mlganetwork.com (Ryan Burgett)",
+  "COPYRIGHT": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License - http://creativecommons.org/licenses/by-nc/4.0/",
+  "LANGUAGES": "en",
+  "CATEGORIES": [
+    "News Commentary",
+    "Philosophy"
+  ],
+  "AUTHOR": "MLGA Network",
+  "EMAIL": "thisismlga@gmail.com",
+  "ITUNES_CATEGORY": [
+    "News Commentary",
+    "Philosophy"
+  ],
+  "ITUNES_IMAGE": "mlga.jpg",
+  "ITUNES_EXPLICIT": false
+}

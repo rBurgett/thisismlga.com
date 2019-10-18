@@ -1,0 +1,64 @@
+// Import Bootstrap
+@import "bootstrap/bootstrap.scss";
+
+body {
+  padding-bottom: 15px;
+}
+.main-image-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.main-image {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+}
+.header-link {
+  margin: auto;
+  display: block;
+  width: 400px;
+  max-width: 100%;
+}
+.card {
+  margin-bottom: 15px;
+}
+.video-container-no-margin {
+  position: relative;
+}
+.video-container {
+  position: relative;
+  margin-bottom: 15px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+div.btn {
+  cursor: pointer;
+}
+.links-btn {
+  position: relative;
+  display: block;
+}
+.links-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 38px;
+  right: 0;
+  width: 250px;
+  height: 100px;
+}
+.links-dropdown-menu .list-group-item {
+  border-radius: 0 0 0 0;
+}
+.svg-icon {
+  height: 1rem;
+  width: auto;
+  fill: #343a40;
+  vertical-align: middle;
+}
+a.btn-outline-dark:hover .svg-icon {
+  fill: #fff;
+}
+a.btn-outline-dark:focus .svg-icon {
+  fill: #fff;
+}
