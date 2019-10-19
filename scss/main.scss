@@ -56,21 +56,17 @@ div.btn {
   fill: #d9b01c;
   vertical-align: middle;
 }
-a.btn-outline-dark:hover .svg-icon {
-  fill: #000;
-}
-a.btn-outline-dark:focus .svg-icon {
-  fill: #000;
-}
+
 a.btn-outline-dark {
   background-color: #0d0d0d;
 
-  &:hover {
+  &:not(:disabled):not(.disabled):active, &:hover, &:focus {
     background-color: #d9b01c;
-  }
 
-  &:focus {
-    background-color: #0d0d0d;
+    .svg-icon {
+      fill: #000;
+    }
+
   }
 }
 
@@ -80,18 +76,14 @@ div.card {
   background-color: #0d0d0d;
   color: $episodeTextColor;
 }
+
 a.episode-title-link {
   color: $episodeTextColor;
-  opacity: 1;
-  &:hover {
+
+  &:hover, &:focus {
     background-color: #d9b01c;
     color: #000000;
     text-decoration: none;
   }
 
-  &:focus {
-    background-color: #d9b01c;
-    color: #000000;
-    text-decoration: none;
-  }
 }
