@@ -87,3 +87,13 @@ a.episode-title-link {
   }
 
 }
+
+a {
+  color: $episodeTextColor;
+  &:hover, &:focus, &:active {
+    color: $episodeTextColor;
+  }
+}
+.licensed-under-note {
+  color: #aaa;
+}
