@@ -14,16 +14,20 @@
   "MANAGING_EDITOR": "ryan@mlganetwork.com (Ryan Burgett)",
   "WEBMASTER": "ryan@mlganetwork.com (Ryan Burgett)",
   "COPYRIGHT": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License - http://creativecommons.org/licenses/by-nc/4.0/",
-  "LANGUAGES": "en",
+  "LANGUAGE": "en",
   "CATEGORIES": [
     "News Commentary",
-    "Philosophy"
+    "Society & Culture"
   ],
   "AUTHOR": "MLGA Network",
   "EMAIL": "thisismlga@gmail.com",
   "ITUNES_CATEGORY": [
-    "News Commentary",
-    "Philosophy"
+    {"text": "News", "subcats": [
+      {"text":  "News Commentary"}]
+    },
+    {"text": "Society & Culture", "subcats": [
+      {"text":  "Philosophy"}]
+    }
   ],
   "ITUNES_IMAGE": "mlga.jpg",
   "ITUNES_EXPLICIT": false

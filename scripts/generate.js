@@ -106,7 +106,7 @@ const getEpisodes = async function() {
           name: siteData.AUTHOR,
           email: siteData.EMAIL
         },
-        itunesCategory: siteData.CATEGORIES.map(c => ({text: c})),
+        itunesCategory: siteData.ITUNES_CATEGORY,
         itunesImage: `${siteData.SITE_URL}/images/${siteData.ITUNES_IMAGE}`,
         itunesExplicit: siteData.ITUNES_EXPLICIT
       });
