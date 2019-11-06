@@ -108,7 +108,7 @@ const getEpisodes = async function() {
         },
         itunesCategory: siteData.ITUNES_CATEGORY,
         itunesImage: `${siteData.SITE_URL}/images/${siteData.ITUNES_IMAGE}`,
-        itunesExplicit: siteData.ITUNES_EXPLICIT
+        itunesExplicit: siteData.EXPLICIT
       });
       for(let episode of episodes) {
         episode = Object.assign({}, siteData, episode);
@@ -127,6 +127,7 @@ const getEpisodes = async function() {
             file: localFilePath
           },
           itunesImage: `${siteData.SITE_URL}/images/${episode.IMAGE}`,
+          itunesExplicit: episode.EXPLICIT || siteData.EXPLICIT,
           customElements: [
             {'content:encoded': {_cdata: markdown.render(episode.CONTENT)}}
           ]
