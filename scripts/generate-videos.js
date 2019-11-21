@@ -38,7 +38,9 @@ const getEpisodes = async function() {
 const generateVideos = async function() {
   try {
 
-    const episodes = await getEpisodes();
+    let episodes = await getEpisodes();
+    episodes = [episodes[episodes.length - 3]];
+    console.log(episodes);
 
     const ext = 'mp4';
 
@@ -58,11 +60,14 @@ const generateVideos = async function() {
         .write(tempImagePath);
       await new Promise((resolve, reject) => {
         console.log(`Generating Video for ${mp3FilePath}`);
+        const begin = Date.now();
         const converter = new Converter(mp3FilePath, 'mp4', tempImagePath);
         converter.init(async function(err, res) {
           if(err) {
             reject(err);
           } else {
+            const end = Date.now();
+            console.log(`Done in ${((end - begin) / 60000).toFixed(2)} minutes`);
             await fs.moveAsync(res.videoPath, videoFilePath, {overwrite: true});
             console.log(colors.green(`Video can be found at: ${videoFilePath}`));
             resolve();
