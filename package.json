@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "express": "^4.16.4",
-    "jimp": "^0.6.1",
+    "jimp": "^0.6.8",
     "rmrf-promise": "^1.1.0",
     "serve-favicon": "^2.5.0",
     "superagent": "^5.1.0"

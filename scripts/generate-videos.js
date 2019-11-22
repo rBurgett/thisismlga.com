@@ -38,25 +38,26 @@ const getEpisodes = async function() {
 const generateVideos = async function() {
   try {
 
-    let episodes = await getEpisodes();
-    episodes = [episodes[episodes.length - 3]];
-    console.log(episodes);
+    const episodes = await getEpisodes();
 
     const ext = 'mp4';
 
     for(const episode of episodes) {
-      const { IMAGE, FILE } = episode;
+      const { FILE } = episode;
+      let { IMAGE } = episode;
       const mp3FilePath = path.join(mediaDir,'audio', FILE);
       const videoFilePath = path.join(videosDir, path.basename(FILE, '.mp3') + '.' + ext);
       if(fileExists(videoFilePath)) continue;
+      const imageExt = path.extname(IMAGE);
+      IMAGE = `${path.basename(IMAGE, imageExt)}-video${imageExt}`;
       const origImagePath = path.join(mediaDir, 'images', IMAGE);
       const tempImagePath = path.join(tempDir, IMAGE);
       const dimensions = sizeOf(origImagePath);
       const image = await Jimp.read(origImagePath);
       await image
         .crop(0, 0, dimensions.width - 20, dimensions.height)
-        .resize(800, Jimp.AUTO)
-        .cover(800, 450, Jimp.VERTICAL_ALIGN_MIDDLE)
+        .resize(1080, Jimp.AUTO)
+        // .cover(1080, 450, Jimp.VERTICAL_ALIGN_MIDDLE)
         .write(tempImagePath);
       await new Promise((resolve, reject) => {
         console.log(`Generating Video for ${mp3FilePath}`);
