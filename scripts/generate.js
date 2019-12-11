@@ -43,6 +43,8 @@ const getEpisodes = async function() {
   const episodes = [];
   for(const folder of folders) {
     const episodeDir = path.join(episodesDir, folder);
+    const stat = await fs.statAsync(episodeDir);
+    if (!stat.isDirectory()) continue;
     const data = await fs.readJsonAsync(path.join(episodeDir, 'episode.json'));
     const notes = await fs.readFileAsync(path.join(episodeDir, 'notes.md'), 'utf8');
     episodes.push(Object.assign({}, data, {NOTES: notes}));
