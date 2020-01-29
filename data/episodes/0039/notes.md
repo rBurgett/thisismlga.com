@@ -22,6 +22,8 @@
 
 [https://en.wikipedia.org/wiki/David_Koresh](https://en.wikipedia.org/wiki/David_Koresh)
 
+[https://en.wikipedia.org/wiki/Waco_siege](https://en.wikipedia.org/wiki/Waco_siege)
+
 [https://www.haaretz.com/us-news/.premium.MAGAZINE-waco-the-jerusalem-revelation-that-ended-with-76-dying-in-a-fire-1.5846185](https://www.haaretz.com/us-news/.premium.MAGAZINE-waco-the-jerusalem-revelation-that-ended-with-76-dying-in-a-fire-1.5846185)
 
 [David Koresh's Seven Seals Manuscript](https://s3.amazonaws.com/com.ryanburgett.personal/375-d1a4.pdf (Seven Seals PDF))
