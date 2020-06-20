@@ -2,7 +2,7 @@
 
 Find Thaddeus on [Twitter](https://twitter.com/nickwaye) and make sure to check out [Thank You For Your Servers](https://thankyouforyourservers.com).
 
-Connect with Kim on [Twitter](https://twitter.com/lesbertarian) and if you haven't listed to [Lesbertarian](https://lesbertarian.com), you should.
+Connect with Kim on [Twitter](https://twitter.com/lesbertarian) and if you haven't listened to [Lesbertarian](https://lesbertarian.com), you should.
 
 Find us on:
 
