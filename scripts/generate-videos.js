@@ -58,7 +58,6 @@ const generateVideos = async function() {
       await image
         .crop(0, 0, dimensions.width - 20, dimensions.height)
         .resize(1080, Jimp.AUTO)
-        .quality(70)
         // .cover(800, 450, Jimp.VERTICAL_ALIGN_MIDDLE)
         .write(tempImagePath);
       await new Promise((resolve, reject) => {

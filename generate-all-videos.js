@@ -26,7 +26,7 @@ const generateVideos = require('./scripts/generate-videos');
       const backgroundImage = await jimp.read(path.join(imagesDir, 'black_16x9.png'));
       backgroundImage.composite(image, (2000 / 2) -  500, (1125 / 2) - 500);
       await backgroundImage
-        // .quality(70)
+        .quality(70)
         .writeAsync(savePath);
     }
 
