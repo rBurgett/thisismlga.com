@@ -50,7 +50,7 @@ const generateVideos = async function() {
       const videoFilePath = path.join(videosDir, path.basename(FILE, '.mp3') + '.' + ext);
       if(fileExists(videoFilePath)) continue;
       const imageExt = path.extname(IMAGE);
-      IMAGE = `${path.basename(IMAGE, imageExt)}-video${imageExt}`;
+      IMAGE = `${path.basename(IMAGE, imageExt)}-video.jpg`;
       const origImagePath = path.join(mediaDir, 'images', IMAGE);
       const tempImagePath = path.join(tempDir, IMAGE);
       const dimensions = sizeOf(origImagePath);
@@ -58,6 +58,7 @@ const generateVideos = async function() {
       await image
         .crop(0, 0, dimensions.width - 20, dimensions.height)
         .resize(1080, Jimp.AUTO)
+        .quality(70)
         // .cover(800, 450, Jimp.VERTICAL_ALIGN_MIDDLE)
         .write(tempImagePath);
       await new Promise((resolve, reject) => {
