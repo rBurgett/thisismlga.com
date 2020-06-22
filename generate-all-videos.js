@@ -18,11 +18,14 @@ const generateVideos = require('./scripts/generate-videos');
       const imagePath = episodeImages[i];
       const ext = path.extname(imagePath);
       const videoImageName = `${path.basename(imagePath, ext)}-video${ext}`;
+      const savePath = path.join(imagesDir, videoImageName);
+      const exists = await fs.existsAsync(savePath);
+      if(exists) continue;
       const image = await jimp.read(imagePath);
       image.resize(1000, 1000);
       const backgroundImage = await jimp.read(path.join(imagesDir, 'black_16x9.png'));
       backgroundImage.composite(image, (2000 / 2) -  500, (1125 / 2) - 500);
-      await backgroundImage.writeAsync(path.join(imagesDir, videoImageName));
+      await backgroundImage.writeAsync(savePath);
     }
 
     generateVideos();
