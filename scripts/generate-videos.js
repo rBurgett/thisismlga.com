@@ -38,7 +38,8 @@ const getEpisodes = async function() {
 const generateVideos = async function() {
   try {
 
-    const episodes = await getEpisodes();
+    let episodes = await getEpisodes();
+    episodes = episodes.slice(-1);
 
     const ext = 'mp4';
 
@@ -57,18 +58,15 @@ const generateVideos = async function() {
       await image
         .crop(0, 0, dimensions.width - 20, dimensions.height)
         .resize(1080, Jimp.AUTO)
-        // .cover(1080, 450, Jimp.VERTICAL_ALIGN_MIDDLE)
+        // .cover(800, 450, Jimp.VERTICAL_ALIGN_MIDDLE)
         .write(tempImagePath);
       await new Promise((resolve, reject) => {
         console.log(`Generating Video for ${mp3FilePath}`);
-        const begin = Date.now();
         const converter = new Converter(mp3FilePath, 'mp4', tempImagePath);
         converter.init(async function(err, res) {
           if(err) {
             reject(err);
           } else {
-            const end = Date.now();
-            console.log(`Done in ${((end - begin) / 60000).toFixed(2)} minutes`);
             await fs.moveAsync(res.videoPath, videoFilePath, {overwrite: true});
             console.log(colors.green(`Video can be found at: ${videoFilePath}`));
             resolve();
