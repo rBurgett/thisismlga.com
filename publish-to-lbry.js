@@ -148,7 +148,7 @@ const getConfirmations = async function(permanentUrl) {
 
       const params = {
         name,
-        bid: '0.01',
+        bid: '1.0',
         file_path: path.join(videosDir, `mlga_${numberStr}.mp4`),
         validate_file: true,
         optimize_file: true,
