@@ -1,10 +1,6 @@
 ## Notes
 
-Check Jessica out on [Twitter](https://twitter.com/LibtKitWitch).
- 
-Check out her [YouTube Channel](https://www.youtube.com/c/JessicaGreenLibertarianKitchenWitch)
-
-Or over at her [blog](https://libertariankitchenwitch.wordpress.com/).
+Check Hal out on [Twitter](https://twitter.com/chefhalden).
 
 Find us on:
 
