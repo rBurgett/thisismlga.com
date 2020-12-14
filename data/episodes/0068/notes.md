@@ -2,7 +2,7 @@
 
 This is a shortened and cleaned up audio version. To listen to the full episode, warts and all, with bonus conversation, [click here](https://youtu.be/aauFmB0-JHo).
 
-Check out Monica and Brad's [Propaganda Rerport](https://www.thepropreport.com/), listen to all of their [episodes](https://directory.libsyn.com/shows/view/id/propagandareport), and bug [Monica](https://twitter.com/MonicaPerezShow) and [Jar Jar Binkley](https://twitter.com/freedomactradio) on Twitter.
+Check out Monica and Brad's [Propaganda Report](https://www.thepropreport.com/), listen to all of their [episodes](https://directory.libsyn.com/shows/view/id/propagandareport), and bug [Monica](https://twitter.com/MonicaPerezShow) and [Jar Jar Binkley](https://twitter.com/freedomactradio) on Twitter.
 
 Buy your Joe Rogan microphone from Dent at [ZenProAudio](https://zenproaudio.com/) and check Dent out on [Twitter](https://twitter.com/dentintheworld).
 
