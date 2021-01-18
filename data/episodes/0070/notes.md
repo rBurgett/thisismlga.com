@@ -1,8 +1,10 @@
 ## Notes
 
-Watch the live video on [YouTube](https://youtu.be/uZZDySWuZnk).
+Watch the live video on [YouTube](https://bit.ly/35ROxeN).
 
-Check out Monica's [Propaganda Report](https://www.thepropreport.com/), listen to all of their [episodes](https://directory.libsyn.com/shows/view/id/propagandareport), and bug [Monica](https://twitter.com/MonicaPerezShow) on Twitter.
+Find [Shaine](https://twitter.com/ShaineScalph) and [Nico](https://twitter.com/PetiteNicoco)on Twitter.
+
+Also, check out their show [What's HAPAning](https://www.stitcher.com/show/whats-hapaning).
 
 Check Jessica out on [Twitter](https://twitter.com/LibtKitWitch), her [YouTube Channel](https://www.youtube.com/c/JessicaGreenLibertarianKitchenWitch), and her [beautiful art](https://www.instagram.com/sovereigncookiesart/).
 
