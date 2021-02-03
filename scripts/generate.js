@@ -113,7 +113,10 @@ const getEpisodes = async function() {
         },
         itunesCategory: siteData.ITUNES_CATEGORY,
         itunesImage: `${siteData.SITE_URL}/images/${siteData.ITUNES_IMAGE}`,
-        itunesExplicit: siteData.EXPLICIT
+        itunesExplicit: siteData.EXPLICIT,
+        customElements: [
+          {'itunes:new-feed-url': feedUrl}
+        ]
       });
       for(let episode of episodes) {
         episode = Object.assign({}, siteData, episode);
