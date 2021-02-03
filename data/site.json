@@ -1,14 +1,14 @@
 {
   "BACKGROUND_COLOR": "#000",
-  "SITE_NAME": "Make Liberty Great Again",
-  "SITE_URL": "https://thisismlga.com",
+  "SITE_NAME": "The Mad Ones",
+  "SITE_URL": "https://wearethemadones.com",
   "ITUNES_LINK": "https://podcasts.apple.com/us/podcast/make-liberty-great-again/id1454398155",
-  "PATREON_LINK": "https://patreon.com/ThisIsMLGA",
-  "FACEBOOK_LINK": "https://facebook.com/ThisIsMLGA",
-  "TWITTER_LINK": "https://twitter.com/ThisIsMLGA",
-  "YOUTUBE_LINK": "https://www.youtube.com/channel/UCc6afUEDGqh0HedgB51Vtlg",
-  "META_DESCRIPTION": "My name is Cam and I’m here to have great conversations, roast warmongers and thieves, and to laugh into a microphone.",
-  "META_IMAGE": "mlga-logo.jpg",
+  "LOCALS_LINK": "https://themadones.locals.com/",
+  "FACEBOOK_LINK": "https://facebook.com/WeAreTheMad",
+  "TWITTER_LINK": "https://twitter.com/CamHarless",
+  "YOUTUBE_LINK": "https://www.youtube.com/TheMadOnes",
+  "META_DESCRIPTION": "We are the seemingly mad ones. We are the sane within a sea of whitewashed minds. We can live, we can laugh, we can fight, and most importantly, we can be free. Join Cam and Jessica each week as we talk to friends, thought leaders, explore and revel in the absurdity of the world around us, and plant seeds of hope for the future.",
+  "META_IMAGE": "the-mad-ones-logo.png",
   "META_IMAGE_WIDTH": "2000",
   "META_IMAGE_HEIGHT": "2000",
   "FB_APP_ID": "",
@@ -21,7 +21,7 @@
     "Society & Culture"
   ],
   "AUTHOR": "MLGA Network",
-  "EMAIL": "thisismlga@mlganetwork.com",
+  "EMAIL": "administration@mlganetwork.com",
   "ITUNES_CATEGORY": [
     {"text": "News", "subcats": [
       {"text":  "News Commentary"}]
@@ -30,6 +30,6 @@
       {"text":  "Philosophy"}]
     }
   ],
-  "ITUNES_IMAGE": "mlga-logo.jpg",
+  "ITUNES_IMAGE": "the-mad-ones-logo.png",
   "EXPLICIT": false
 }
