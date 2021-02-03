@@ -91,7 +91,8 @@
     <div class="col-lg-8 offset-lg-2">
       <div class="card">
         <div class="card-body">
-          <h3>{{TITLE}}</h3>
+          <h3 class="title-header">{{TITLE}}</h3>
+          <div class="date-label"><em><small class="text-muted">{{formatDate this.DATE}}</small></em></div>
           <div>{{{render CONTENT}}}</div>
           <div class="video-container">
             <audio controls class="w-100">

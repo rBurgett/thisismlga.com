@@ -6,6 +6,7 @@ const Markdown = require('markdown-it');
 const crypto = require('crypto');
 const generateVideos = require('./generate-videos');
 const Jimp = require('jimp');
+const moment = require('moment');
 
 const flags = require('commander')
   .option('--tor', true)
@@ -22,6 +23,7 @@ const removeAnalytics = str => {
 const markdown = new Markdown();
 
 Handlebars.registerHelper('render', str => markdown.render(str));
+Handlebars.registerHelper('formatDate', isoDate => moment(isoDate).format('YYYY-MM-DD'));
 
 const base = path.resolve(__dirname, '..');
 const templatesDir = path.join(base, 'templates');
