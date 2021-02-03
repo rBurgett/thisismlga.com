@@ -5,6 +5,8 @@ const Feed = require('podcast');
 const Markdown = require('markdown-it');
 const crypto = require('crypto');
 const generateVideos = require('./generate-videos');
+const Jimp = require('jimp');
+const moment = require('moment');
 
 const flags = require('commander')
   .option('--tor', true)
@@ -21,6 +23,7 @@ const removeAnalytics = str => {
 const markdown = new Markdown();
 
 Handlebars.registerHelper('render', str => markdown.render(str));
+Handlebars.registerHelper('formatDate', isoDate => moment(isoDate).format('YYYY-MM-DD'));
 
 const base = path.resolve(__dirname, '..');
 const templatesDir = path.join(base, 'templates');
@@ -116,6 +119,11 @@ const getEpisodes = async function() {
         episode = Object.assign({}, siteData, episode);
         episode.IMAGE = episode.IMAGE || siteData.META_IMAGE;
         episode.ITUNES_IMAGE = episode.ITUNES_IMAGE || siteData.ITUNES_IMAGE;
+        const imageFilePath = path.join(mediaDir, 'images', episode.IMAGE);
+        const image = await Jimp.read(imageFilePath);
+        const { width, height } = image.bitmap;
+        episode.IMAGE_WIDTH = width;
+        episode.IMAGE_HEIGHT = height;
         const localFilePath = path.join(mediaDir, 'audio', episode.FILE);
         const { birthtime } = await fs.statAsync(localFilePath);
         feed.addItem({
