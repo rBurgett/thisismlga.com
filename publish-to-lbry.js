@@ -135,7 +135,7 @@ const getConfirmations = async function(permanentUrl) {
     // }
     // return;
 
-    for(const episode of episodes.slice(68, 72)) {
+    for(const episode of episodes.slice(-1)) {
 
       const { NUMBER } = episode;
       let numberStr = NUMBER.toString();
@@ -143,18 +143,18 @@ const getConfirmations = async function(permanentUrl) {
         numberStr = '0' + numberStr;
       }
 
-      const name = `mlga_${numberStr}`;
+      const name = `tmo_${numberStr}`;
       console.log(name);
 
       const params = {
         name,
         bid: '1.0',
-        file_path: path.join(videosDir, `mlga_${numberStr}.mp4`),
+        file_path: path.join(videosDir, `tmo_${numberStr}.mp4`),
         validate_file: true,
         optimize_file: true,
         title: episode.TITLE,
         description: episode.DESCRIPTION,
-        thumbnail_url: `https://thisismlga.com/images/mlga_${numberStr}-video.jpg`,
+        thumbnail_url: `https://wearethemadones.com/images/tmo_${numberStr}-video.jpg`,
         author: 'Cam Harless',
         tags: [],
         languages: ['en'],
