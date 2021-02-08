@@ -135,7 +135,7 @@ const getConfirmations = async function(permanentUrl) {
     // }
     // return;
 
-    for(const episode of episodes.slice(-1)) {
+    for(const episode of episodes.slice(68, 72)) {
 
       const { NUMBER } = episode;
       let numberStr = NUMBER.toString();
