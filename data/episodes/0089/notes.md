@@ -1,16 +1,16 @@
 ## Notes
 
-Watch the live video of this conversation here: [youtu.be/Xuyw4s9qmkE](https://youtu.be/Xuyw4s9qmkE)
+Watch the live video of this conversation here: [youtu.be/ywVTdNpGEp0](https://youtu.be/ywVTdNpGEp0)
 
-Follow Clint on Twitter over at [twitter.com/LibertyLockPod](https://twitter.com/LibertyLockPod)
+Follow Jeff on Twitter at [twitter.com/jeffdeist](https://twitter.com/jeffdeist)
 
-Check him out on YouTube over at [youtube.com/channel/UCJeZwRfSPX00f4bB7gOeN5w](https://www.youtube.com/channel/UCJeZwRfSPX00f4bB7gOeN5w)
+Follow the Mises Institute on Twitter at [twitter.com/mises](https://twitter.com/mises)
 
-If you use Apple Podcasts, check out his show here [podcasts.apple.com/us/podcast/liberty-lockdown/id1138657182](https://podcasts.apple.com/us/podcast/liberty-lockdown/id1138657182)
+If you aren't reading everything by the Mises Institute, fix that here [mises.org](https://mises.org)
 
-Or if you prefer Spotify, [open.spotify.com/show/47zBxoqrvRr8Fxn87DlIUh](https://open.spotify.com/show/47zBxoqrvRr8Fxn87DlIUh)
+Give the Human Action Podcast a listen: [mises.org/library/human-action-podcast](https://mises.org/library/human-action-podcast)
 
-Just search for it in your podcatcher tbh
+Also, don't miss Radio Rothbard with Jeff and Tho Bishop: [mises.org/library/radio-rothbard](https://mises.org/library/radio-rothbard)
 
 Buy yourself some Lorenzotti Italian coffee at [lorenzotti.coffee/](https://www.lorenzotti.coffee/) and don't forget to grab a tin and try it out for 10% off with our special promo code THEMADONES.
 
