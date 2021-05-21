@@ -16,6 +16,6 @@ If I forgot to link something here that I said I would, shoot me a tweet and I'l
 
 Find us on:
 
-[locals](https://themadones.locals.com/), [Facebook](https://www.facebook.com/WeAreTheMad/), [Cam's Twitter](https://twitter.com/CamHarless), [Jessica's Twitter](https://twitter.com/soupcanarchist), and our [website](http://wearethemad.com).
+[Rokfin](https://rokfin.com/TheMadOnes), [Facebook](https://www.facebook.com/WeAreTheMad/), [Cam's Twitter](https://twitter.com/CamHarless), [Jessica's Twitter](https://twitter.com/soupcanarchist), and our [website](http://wearethemad.com).
 
 Find all of our original shows at [The MLGA Network](https://mlganetwork.com).

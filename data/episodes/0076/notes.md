@@ -10,6 +10,6 @@ Listen to Peace Freqs: [http://peacefreqs.com/](http://peacefreqs.com/)
 
 Find us on:
 
-[locals](https://themadones.locals.com/), [Facebook](https://www.facebook.com/WeAreTheMad/), [Cam's Twitter](https://twitter.com/CamHarless), [Jessica's Twitter](https://twitter.com/soupcanarchist), and our [website](http://wearethemad.com).
+[Rokfin](https://rokfin.com/TheMadOnes), [Facebook](https://www.facebook.com/WeAreTheMad/), [Cam's Twitter](https://twitter.com/CamHarless), [Jessica's Twitter](https://twitter.com/soupcanarchist), and our [website](http://wearethemad.com).
 
 Find all of our original shows at [The MLGA Network](https://mlganetwork.com).
