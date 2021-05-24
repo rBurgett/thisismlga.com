@@ -2,7 +2,7 @@
 
 Watch the live video on [YouTube](https://youtu.be/h9yNAa9giFw).
 
-Buy one of our [spiffy new shirts](https://www.amazon.com/The-Mad-Ones-T-Shirt/dp/B08TX8JWRG/ref=pd_ybh_a_3?_encoding=UTF8&psc=1&refRID=1E8N867B3XZ406PKEJST).
+Buy one of our [spiffy new shirts](https://amzn.to/3fdZTPj).
 
 Follow Binkley on [Twitter](https://twitter.com/freedomactradio).
 

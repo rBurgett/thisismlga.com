@@ -16,7 +16,7 @@ If you want to sound good while you're streaming, in meetings, or podcasting, ge
 
 If you want any custom software solutions, apps, websites, or any other software solutions (or graphic/video from me) hit up Ryan over at [burgettdev.net/](https://burgettdev.net/)
 
-Buy one of our spiffy shirts: [amzn.to/2NwJ4E3​](https://amzn.to/2NwJ4E3​)
+Buy one of our spiffy shirts: [https://amzn.to/3fdZTPj](https://amzn.to/3fdZTPj)
 
 If I forgot to link something here that I said I would, shoot me a tweet and I'll send it to you.
 Find us on:

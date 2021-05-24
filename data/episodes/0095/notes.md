@@ -1,12 +1,14 @@
 ## Notes
 
-Watch the live video of this conversation here: [youtu.be/b72W5vnmZhI](https://youtu.be/b72W5vnmZhI)
+Watch the live video of this conversation on [Rokfin](https://youtu.be/OmDm9J4h0wA).
 
-Check out everything that Nick is up to over on his website: [nickpecone.com/](https://nickpecone.com/)
+If you would like to check out what Jeremy has created, check out LBRY over at [lbry.com/](https://lbry.com/)
 
-And, you should be listening to Peace Freqs and you can do that here: [nickpecone.com/peace-freqs-podcast/](https://nickpecone.com/peace-freqs-podcast/)
+Check out the YouTube Destroyer over at [odysee.com/](https://odysee.com/)
 
-I've been told that he will be playing music at Chillderburg. If you'll be there, go see the man play his music.
+Sign the petition and see how you can help at [helplbrysavecrypto.com/](https://helplbrysavecrypto.com/)
+
+Follow him on Twitter [@jeremykauffman](https://twitter.com/jeremykauffman)
 
 Have you checked out out Opsec Drip yet? No? Do it now here: [youtube.com/channel/UCY6-KklshhvF4GOrkHPQRmQ](https://www.youtube.com/channel/UCY6-KklshhvF4GOrkHPQRmQ)
 
