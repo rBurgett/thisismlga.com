@@ -1,14 +1,10 @@
 ## Notes
 
-Watch the live video of this conversation on [Rokfin](https://rokfin.com/stream/5775/Episode-95--The-Odysee-with-Jeremy-Kauffman).
+Watch the live video of this conversation on [Rokfin](https://rokfin.com/post/41957/Episode-96--Enter-the-Soundman-featuring-Dent).
 
-If you would like to check out what Jeremy has created, check out LBRY over at [lbry.com/](https://lbry.com/)
+If you aren't following Dent on Twitter, you should be over [@dentintheworld](https://twitter.com/dentintheworld).
 
-Check out the YouTube Destroyer over at [odysee.com/](https://odysee.com/)
-
-Sign the petition and see how you can help at [helplbrysavecrypto.com/](https://helplbrysavecrypto.com/)
-
-Follow him on Twitter [@jeremykauffman](https://twitter.com/jeremykauffman)
+If you want to sound good while you're streaming, in meetings, or podcasting, get your setup from Dent over at [ZenProAudio.com](https://www.zenproaudio.com/)
 
 Have you checked out out Opsec Drip yet? No? Do it now here: [youtube.com/channel/UCY6-KklshhvF4GOrkHPQRmQ](https://www.youtube.com/channel/UCY6-KklshhvF4GOrkHPQRmQ)
 
