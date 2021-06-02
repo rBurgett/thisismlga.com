@@ -104,3 +104,15 @@ a {
 .date-label {
   margin-bottom: 8px;
 }
+
+.rokfin-img-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.rokfin-img {
+  width: 500px;
+  height: auto;
+  max-width: 100%;
+}

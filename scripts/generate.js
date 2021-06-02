@@ -118,7 +118,16 @@ const getEpisodes = async function() {
           {'itunes:new-feed-url': feedUrl}
         ]
       });
-      for(let episode of episodes) {
+
+      const feedLimit = siteData.FEED_LIMIT;
+
+      for(let i = 0; i < episodes.length; i++) {
+        let episode = episodes[i];
+
+        const SHOW_IN_FEED = !feedLimit || i < feedLimit;
+        episodes[i].SHOW_IN_FEED = SHOW_IN_FEED;
+
+        console.log('episode number', episode.NUMBER);
         episode = Object.assign({}, siteData, episode);
         episode.IMAGE = episode.IMAGE || siteData.META_IMAGE;
         episode.ITUNES_IMAGE = episode.ITUNES_IMAGE || siteData.ITUNES_IMAGE;
@@ -129,22 +138,24 @@ const getEpisodes = async function() {
         episode.IMAGE_HEIGHT = height;
         const localFilePath = path.join(mediaDir, 'audio', episode.FILE);
         const { birthtime } = await fs.statAsync(localFilePath);
-        feed.addItem({
-          title: episode.TITLE,
-          url: `${siteData.SITE_URL}/${episode.NUMBER}`,
-          description: episode.DESCRIPTION,
-          guid: episode.GUID ? episode.GUID : generateGuidFromString(episode.TITLE + episode.NUMBER),
-          date: episode.DATE || birthtime,
-          enclosure: {
-            url: `${siteData.SITE_URL}/audio/${episode.FILE}`,
-            file: localFilePath
-          },
-          itunesImage: `${siteData.SITE_URL}/images/${episode.IMAGE}`,
-          itunesExplicit: episode.EXPLICIT || siteData.EXPLICIT,
-          customElements: [
-            {'content:encoded': {_cdata: markdown.render(episode.CONTENT)}}
-          ]
-        });
+        if(SHOW_IN_FEED) {
+          feed.addItem({
+            title: episode.TITLE,
+            url: `${siteData.SITE_URL}/${episode.NUMBER}`,
+            description: episode.DESCRIPTION,
+            guid: episode.GUID ? episode.GUID : generateGuidFromString(episode.TITLE + episode.NUMBER),
+            date: episode.DATE || birthtime,
+            enclosure: {
+              url: `${siteData.SITE_URL}/audio/${episode.FILE}`,
+              file: localFilePath
+            },
+            itunesImage: `${siteData.SITE_URL}/images/${episode.IMAGE}`,
+            itunesExplicit: episode.EXPLICIT || siteData.EXPLICIT,
+            customElements: [
+              {'content:encoded': {_cdata: markdown.render(episode.CONTENT)}}
+            ]
+          });
+        }
 
         const episodeDir = path.join(outputDir, String(episode.NUMBER));
         await fs.ensureDirAsync(episodeDir);

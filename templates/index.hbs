@@ -97,11 +97,13 @@
           <div class="card-body">
             <h3><a class="episode-title-link" href="/{{this.NUMBER}}">{{this.TITLE}}</a></h3>
             <div>{{{render this.CONTENT}}}</div>
-            <div class="video-container-no-margin">
-              <audio controls class="w-100">
-                <source src="/audio/{{this.FILE}}" type="audio/mp3">
-              </audio>
-            </div>
+            {{#if this.SHOW_IN_FEED}}
+              <div class="video-container-no-margin">
+                <audio controls class="w-100">
+                  <source src="/audio/{{this.FILE}}" type="audio/mp3">
+                </audio>
+              </div>
+            {{/if}}
           </div>
         </div>
       {{/each}}
