@@ -94,14 +94,20 @@
           <h3 class="title-header">{{TITLE}}</h3>
           <div class="date-label"><em><small class="text-muted">{{formatDate this.DATE}}</small></em></div>
           <div>{{{render CONTENT}}}</div>
-          <div class="video-container">
-            <audio controls class="w-100">
-              <source src="/audio/{{FILE}}" type="audio/mp3">
-            </audio>
-            <div class="text-right">
-              <a href="/audio/{{this.FILE}}">Download</a>
+          {{#if SHOW_IN_FEED}}
+            <div class="video-container">
+              <audio controls class="w-100">
+                <source src="/audio/{{FILE}}" type="audio/mp3">
+              </audio>
+              <div class="text-right">
+                <a href="/audio/{{this.FILE}}">Download</a>
+              </div>
             </div>
-          </div>
+          {{else}}
+            <div class="video-container">
+              <a href="https://rokfin.com/TheMadOnes" class="rokfin-img-container"><img class="rokfin-img" src="/images/rokfin_episode.png" alt="Rockfin Download link" /></a>
+            </div>
+          {{/if}}
           <div class="notes-container">{{{render NOTES}}}</div>
         </div>
       </div>
