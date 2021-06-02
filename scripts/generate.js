@@ -127,7 +127,6 @@ const getEpisodes = async function() {
         const SHOW_IN_FEED = !feedLimit || i < feedLimit;
         episodes[i].SHOW_IN_FEED = SHOW_IN_FEED;
 
-        console.log('episode number', episode.NUMBER);
         episode = Object.assign({}, siteData, episode);
         episode.IMAGE = episode.IMAGE || siteData.META_IMAGE;
         episode.ITUNES_IMAGE = episode.ITUNES_IMAGE || siteData.ITUNES_IMAGE;
