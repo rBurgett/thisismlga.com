@@ -172,6 +172,18 @@ const getEpisodes = async function() {
         await fs.writeFileAsync(path.join(outputDir, 'index.html'), output, 'utf8');
       }
 
+      // Generate store
+      {
+        const storeData = await fs.readJsonAsync(path.join(dataDir, 'store.json'));
+        let storeSource = await fs.readFileAsync(path.join(templatesDir, 'store.hbs'), 'utf8');
+        if(torBuild) storeSource = removeAnalytics(storeSource);
+        const storeTemplate = Handlebars.compile(storeSource);
+        const output = storeTemplate(Object.assign({}, siteData, indexData, storeData));
+        const storeDir = path.join(outputDir, 'store');
+        await fs.ensureDirAsync(storeDir);
+        await fs.writeFileAsync(path.join(storeDir, 'index.html'), output, 'utf8');
+      }
+
       const rssFeed = feed.buildXml('  ');
       await fs.writeFileAsync(path.join(outputDir, 'feed.rss'), rssFeed, 'utf8');
     }
