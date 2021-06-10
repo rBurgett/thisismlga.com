@@ -2,7 +2,7 @@
 
 Watch the live video of this conversation on [Rokfin](https://rokfin.com/stream/6013/Episode-97--The-AntiQueens-Gambit-with-Natalie-Danelishen).
 
-ICheck out everything that Natalie is up to on her Linktree: [linktr.ee/Chesschick01](https://linktr.ee/Chesschick01)
+Check out everything that Natalie is up to on her Linktree: [linktr.ee/Chesschick01](https://linktr.ee/Chesschick01)
 
 Don't forget to check out the Mises Institute and all of the work they do: [mises.org/](https://mises.org/)
 
