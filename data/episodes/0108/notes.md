@@ -1,10 +1,14 @@
 ## Notes
 
-Watch the live video of this conversation on [Rokfin](https://rokfin.com/stream/8608/Episode-107--The-Examined-Life-with-Nick-Pecone).
+Watch the live video of this conversation on [Rokfin](https://rokfin.com/stream/8871/Episode-108--White-As-Snow-with-Cindy-Harless).
 
-Follow Nick on Twitter over at [twitter.com/NickyPinecone](https://twitter.com/NickyPinecone).
+Check out her mission over at [abortionrecoveryalabama.org](https://abortionrecoveryalabama.org/)
 
-Check out everything that Nick is up to over on his website: [nickpecone.com](https://nickpecone.com/)
+If you would like to donate to her cause, you can do that here: [give.cornerstone.cc/abortionrecoveryalabama](https://give.cornerstone.cc/abortionrecoveryalabama/)
+
+If you need help now, check out: [internationalhelpline.org](https://www.internationalhelpline.org/)
+
+Or give them a call at 1-866-482-5433
 
 Grab some truly great coffee over at [rymcoffee.com](http://rymcoffee.com) and use promo code TheMadOnes at checkout for 10% off.
 
