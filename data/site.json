@@ -19,18 +19,18 @@
   "COPYRIGHT": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License - http://creativecommons.org/licenses/by-nc/4.0/",
   "LANGUAGE": "en",
   "CATEGORIES": [
-    "News Commentary",
-    "Society & Culture"
+    "Religion & Spirituality",
+    "Comedy"
   ],
   "FEED_LIMIT": 10,
   "AUTHOR": "MLGA Network",
   "EMAIL": "administration@mlganetwork.com",
   "ITUNES_CATEGORY": [
-    {"text": "News", "subcats": [
-      {"text":  "News Commentary"}]
+    {"text": "Religion & Spirituality", "subcats": [
+      {"text":  "Christianity"}]
     },
-    {"text": "Society & Culture", "subcats": [
-      {"text":  "Philosophy"}]
+    {"text": "Comedy", "subcats": [
+      {"text":  "Comedy Interviews"}]
     }
   ],
   "ITUNES_IMAGE": "the-mad-ones-logo.png",
