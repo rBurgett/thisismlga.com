@@ -1,6 +1,8 @@
 ## Notes
 
-Watch the live video of this conversation on [YouTube](https://youtu.be/AeTzKuEIPGY) our Patrons were able to watch this LIVE and early by joining our [Patreon](https://www.patreon.com/TheMadOnes).
+Watch the live video of this conversation on [YouTube](https://youtu.be/AeTzKuEIPGY)
+
+Our Patrons were able to watch this LIVE and early by joining our [Patreon](https://www.patreon.com/TheMadOnes).
 
 Follow Troy on Twitter: [@RevivedThoughts](https://twitter.com/revivedthoughts)
 
