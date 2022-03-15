@@ -1,12 +1,6 @@
 ## Notes
 
-Watch the live video of this conversation on [YouTube](https://youtu.be/ao7Oqze9-DI). Join our [Patreon](https://www.patreon.com/TheMadOnes) for the occasional early episode and more!
-
-Check out the Propaganda Report at [thepropreport.com](https://www.thepropreport.com/)
-
-Follow Monica on Twitter at [@monicaperezshow](https://twitter.com/monicaperezshow)
-
-Join their Patreon: [patreon.com/propagandareport](https://www.patreon.com/propagandareport)
+Watch the live video of this conversation on [YouTube](https://youtu.be/gy2dMTSLxbk). Our Patrons were able to watch this LIVE and early by joining our [Patreon](https://www.patreon.com/TheMadOnes).
 
 Share the show with your friends! That's how we'll grow!
 
