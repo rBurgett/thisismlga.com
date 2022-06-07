@@ -34,5 +34,9 @@
     }
   ],
   "ITUNES_IMAGE": "the-mad-ones-logo.png",
-  "EXPLICIT": false
+  "EXPLICIT": false,
+  "blacklist": [
+    133,
+    139
+  ]
 }

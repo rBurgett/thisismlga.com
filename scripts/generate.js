@@ -60,6 +60,9 @@ const getEpisodes = async function() {
 
     const siteData = await fs.readJsonAsync(path.join(dataDir, 'site.json'));
 
+    const { blacklist: blacklistArr = [] } = siteData;
+    const blacklist = new Set(blacklistArr);
+
     if(torBuild) {
       siteData.SITE_URL = siteData.SITE_URL_TOR;
       siteData.META_IMAGE = siteData.META_IMAGE_TOR;
@@ -123,6 +126,9 @@ const getEpisodes = async function() {
 
       for(let i = 0; i < episodes.length; i++) {
         let episode = episodes[i];
+
+        if(blacklist.has(episode.NUMBER))
+          continue;
 
         const SHOW_IN_FEED = !feedLimit || i < feedLimit;
         episodes[i].SHOW_IN_FEED = SHOW_IN_FEED;
