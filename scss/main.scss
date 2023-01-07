@@ -53,7 +53,7 @@ div.btn {
 .svg-icon {
   height: 1rem;
   width: auto;
-  fill: #f0400b;
+  fill: #f10000;
   vertical-align: middle;
 }
 
@@ -61,7 +61,7 @@ a.btn-outline-dark {
   background-color: #0d0d0d;
 
   &:not(:disabled):not(.disabled):active, &:hover, &:focus {
-    background-color: #f0400b;
+    background-color: #f10000;
 
     .svg-icon {
       fill: #000;
@@ -70,7 +70,7 @@ a.btn-outline-dark {
   }
 }
 
-$episodeTextColor: #f0400b;
+$episodeTextColor: #f10000;
 
 div.card {
   background-color: #0d0d0d;
@@ -81,7 +81,7 @@ a.episode-title-link {
   color: $episodeTextColor;
 
   &:hover, &:focus {
-    background-color: #f0400b;
+    background-color: #f10000;
     color: #000000;
     text-decoration: none;
   }
