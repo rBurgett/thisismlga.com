@@ -1,12 +1,14 @@
 ## Notes
 
-Follow Syran on Twitter: [@freemelparker](https://mobile.twitter.com/freemelparker)
+Follow Warren on Twitter: [@The_Idol_Killer](https://twitter.com/The_Idol_Killer)
 
-Follow his TikTok: [@syranwarner](https://www.tiktok.com/@syranwarner)
+Check out Warren's YouTube: [@IdolKiller](https://www.youtube.com/@IdolKiller)
 
-Read about the Body here: [thebodyintl.com](https://thebodyintl.com/)
+Follow Zach on Twitter: [themutedflag](https://twitter.com/themutedflag)
 
-All of his links: [Linktree](https://linktr.ee/syranwarner)
+Check out his YouTube: [@themutedflag](https://www.youtube.com/@themutedflag)
+
+Check out his TikTok: [@themutedflag](https://www.tiktok.com/@themutedflag)
 
 Share the show with your friends! That's how we'll grow!
 
