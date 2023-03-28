@@ -6,7 +6,7 @@ You can follow Kate and Burials and Beyond everywhere she posts by clicking this
 
 Buy one of our spiffy shirts, pop sockets, or throw pillows over at [wearethemadones.com/store](https://wearethemadones.com/store)
 
-Grab a mug: [etsy.com/shop/themadonesshop](https://www.etsy.com/shop/themadonesshop/)
+Grab a mug: [etsy.com/shop/themadonesshop](https://shop.wearethemadones.com/)
 
 Grab some truly great coffee over at [rymcoffee.com](http://rymcoffee.com) and use promo code TheMadOnes at checkout for 10% off.
 
